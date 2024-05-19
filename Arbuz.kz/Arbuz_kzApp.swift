@@ -13,7 +13,7 @@ struct Arbuz_kzApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeView()
         }
     }
 }

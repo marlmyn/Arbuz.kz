@@ -8,19 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		3A5C88902BFA9C4100D12E33 /* Arbuz_kzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C888F2BFA9C4100D12E33 /* Arbuz_kzApp.swift */; };
-		3A5C88922BFA9C4100D12E33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C88912BFA9C4100D12E33 /* ContentView.swift */; };
 		3A5C88942BFA9C4200D12E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A5C88932BFA9C4200D12E33 /* Assets.xcassets */; };
 		3A5C88972BFA9C4200D12E33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A5C88962BFA9C4200D12E33 /* Preview Assets.xcassets */; };
 		3A5C889E2BFA9FE200D12E33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C889D2BFA9FE200D12E33 /* AppDelegate.swift */; };
+		3A5C88A02BFAB3C300D12E33 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C889F2BFAB3C300D12E33 /* WelcomeView.swift */; };
+		3A5C88A22BFAB41000D12E33 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C88A12BFAB41000D12E33 /* Images.swift */; };
+		3A5C88A52BFABCB600D12E33 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C88A42BFABCB600D12E33 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A5C888C2BFA9C4100D12E33 /* Arbuz.kz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arbuz.kz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A5C888F2BFA9C4100D12E33 /* Arbuz_kzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arbuz_kzApp.swift; sourceTree = "<group>"; };
-		3A5C88912BFA9C4100D12E33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A5C88932BFA9C4200D12E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A5C88962BFA9C4200D12E33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A5C889D2BFA9FE200D12E33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A5C889F2BFAB3C300D12E33 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		3A5C88A12BFAB41000D12E33 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		3A5C88A42BFABCB600D12E33 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +57,12 @@
 		3A5C888E2BFA9C4100D12E33 /* Arbuz.kz */ = {
 			isa = PBXGroup;
 			children = (
+				3A5C88A32BFABC9600D12E33 /* Helpers */,
 				3A5C888F2BFA9C4100D12E33 /* Arbuz_kzApp.swift */,
-				3A5C88912BFA9C4100D12E33 /* ContentView.swift */,
 				3A5C88932BFA9C4200D12E33 /* Assets.xcassets */,
 				3A5C88952BFA9C4200D12E33 /* Preview Content */,
 				3A5C889D2BFA9FE200D12E33 /* AppDelegate.swift */,
+				3A5C889F2BFAB3C300D12E33 /* WelcomeView.swift */,
 			);
 			path = Arbuz.kz;
 			sourceTree = "<group>";
@@ -68,6 +73,15 @@
 				3A5C88962BFA9C4200D12E33 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A5C88A32BFABC9600D12E33 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3A5C88A12BFAB41000D12E33 /* Images.swift */,
+				3A5C88A42BFABCB600D12E33 /* Colors.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A5C889E2BFA9FE200D12E33 /* AppDelegate.swift in Sources */,
-				3A5C88922BFA9C4100D12E33 /* ContentView.swift in Sources */,
+				3A5C88A52BFABCB600D12E33 /* Colors.swift in Sources */,
+				3A5C88A22BFAB41000D12E33 /* Images.swift in Sources */,
 				3A5C88902BFA9C4100D12E33 /* Arbuz_kzApp.swift in Sources */,
+				3A5C88A02BFAB3C300D12E33 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

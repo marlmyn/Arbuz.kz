@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = window
         
         // Create SwiftUI view
-        let contentView = ContentView()
+        let contentView = WelcomeView()
         let hostingController = UIHostingController(rootView: contentView)
         let navigationController = UINavigationController(rootViewController: hostingController)
         
